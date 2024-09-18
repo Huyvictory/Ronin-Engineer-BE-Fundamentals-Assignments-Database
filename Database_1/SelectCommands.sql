@@ -72,7 +72,7 @@ from students
 order by totalScoreTotal desc
 limit 5;
 
-# Find the student with the literature score of 8 and higher and the english score less than 6
+# Find the students with the literature score of 8 and higher and the english score less than 6
 select *
 from students
 where totalScoreLiterature >= 8
